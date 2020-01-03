@@ -1,3 +1,7 @@
+"""
+This is my very first project, a fully functional calculator app.
+"""
+
 from tkinter import *
 
 
