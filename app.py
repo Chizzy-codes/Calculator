@@ -192,10 +192,10 @@ class Application(Frame):
         if len(self.screen.get()) == 0:
             self.screen.insert(0, "0")
 
-
-window = Tk()
-window.geometry("")
-window.resizable(width=False, height=False)
-window.title("Chizzy's Calculator")
-app = Application(window)
-app.mainloop()
+if __name__ == "__main__":
+    window = Tk()
+    window.geometry("")
+    window.resizable(width=False, height=False)
+    window.title("Chizzy's Calculator")
+    app = Application(window)
+    app.mainloop()
